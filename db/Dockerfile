@@ -1,7 +1,7 @@
 FROM mysql:latest
 LABEL database="studentapp"
 
-ENV MYSQL_ROOT_PASSWORD=1234
+ENV MYSQL_ROOT_PASSWORD=12345
 
 # Copy initialization scripts (if any)
 COPY student.sql /docker-entrypoint-initdb.d/
